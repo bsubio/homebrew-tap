@@ -3,7 +3,7 @@ cask "bsubio" do
   name "bsubio"
   desc "CLI for easy running heavy duty compute jobs in the cloud"
   homepage "https://bsub.io"
-  version "0.5.0"
+  version "0.6.0"
 
   livecheck do
     skip "Auto-generated on release."
@@ -15,12 +15,12 @@ cask "bsubio" do
     on_intel do
       url "https://github.com/bsubio/cli/releases/download/v#{version}/cli_#{version}_darwin_amd64.tar.gz",
         verified: "github.com/bsubio/cli/"
-      sha256 "3aa4fe43282a76c65b153bef92f7980ed8fa799063077464c3881caa760eff85"
+      sha256 "f8dfa2f53edb2104466bdbd582e8c2ff2276dde02345c6e6c1551df63022354e"
     end
     on_arm do
       url "https://github.com/bsubio/cli/releases/download/v#{version}/cli_#{version}_darwin_arm64.tar.gz",
         verified: "github.com/bsubio/cli/"
-      sha256 "5cfba9946600fd329abb34fbe3f6f2dd811a10d1a3ee90037755ed9f7ba30363"
+      sha256 "6533a1be47a2aa8f5e5febea2029122a8f96255a4ed0e3e99e39574a5cda6ca3"
     end
   end
 
@@ -28,12 +28,12 @@ cask "bsubio" do
     on_intel do
       url "https://github.com/bsubio/cli/releases/download/v#{version}/cli_#{version}_linux_amd64.tar.gz",
         verified: "github.com/bsubio/cli/"
-      sha256 "01e4d6dc6387c9ac577e29f60f2f9afd7e9667e762fcf0655aeb3a39e1f55045"
+      sha256 "56bc5af25009d9a4e9a9cdb6ca9801a98561821f4266d5a76e93234b96558a7d"
     end
     on_arm do
       url "https://github.com/bsubio/cli/releases/download/v#{version}/cli_#{version}_linux_arm64.tar.gz",
         verified: "github.com/bsubio/cli/"
-      sha256 "a93288605a1407bec62ec2a0ddab2627ec1ac57e6d24f89a37cf5062ebc64a8c"
+      sha256 "3d52e7b5f61e3d97d126ebe1f68ee5e980f7b2c690f6cdd8e91b421fc2f4d342"
     end
   end
 
